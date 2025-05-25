@@ -1,9 +1,9 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import DeathPopupVue from '../components/basicComponents/DeathPopup.vue'
+import RoleModal from '../components/basicComponents/RoleModal.vue'
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <DeathPopupVue />
+  <role-modal />
 </template>
